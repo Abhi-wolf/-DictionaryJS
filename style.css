@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: lightgrey;
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  /* border: 2px solid red; */
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin: 5rem auto;
+  padding: 1.5rem;
+  background-color: #000  ;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.title {
+  /* margin: 0 auto; */
+  font-size: 1.5rem;
+  text-align: center;
+  /* margin-bottom: 1rem; */
+}
+
+.hello {
+  width: 80%;
+}
+
+.container input {
+  width: 75%;
+  height: 2rem;
+  border: 2px solid transparent;
+  text-align: center;
+  border-radius: 5px;
+  margin: 1rem 0;
+  outline: none;
+}
+
+#btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  color: #fff !important;
+  background-color: lightcoral;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.result {
+  text-align: center;
+  font-size: 16px;
+}
+
+
+.box {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  align-items: flex-start;
+}
+
+.box h3 {
+  color: lightsalmon;
+}
+
+.box p {
+  color: #fff;
+  padding: 0.5rem 0 0.3rem 1rem;
+  /* border: 1px solid #fff; */
+  align-self: flex-start;
+  text-align: left;
+}
+
+.hello {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.notFound {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.titleAudio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  width: 90%;
+  padding: 0 3rem 0 2rem;
+}
+
+#heading {
+  font-size: 1.5rem;
+  color: lightskyblue;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: bold;
+} 
+
+
+@media screen and (width <= 500px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    /* border: 2px solid red; */
+    border-radius: 0;
+    justify-content: flex-start;
+  }
+
+  .hello {
+    width: 95%;
+    /* position: fixed;
+    top: 7rem; */
+  }
+
+  /* .title {
+    position: fixed;
+    top: 3rem;
+  } */
+
+
+}
